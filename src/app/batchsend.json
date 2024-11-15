@@ -1,0 +1,23 @@
+{
+    "address": "0x8B99Cd66d8fE694c71705cbb1d31506f2424Ad32",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "address payable[]",
+                    "name": "recipients",
+                    "type": "address[]"
+                },
+                {
+                    "internalType": "uint256[]",
+                    "name": "amounts",
+                    "type": "uint256[]"
+                }
+            ],
+            "name": "send",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        }
+    ]
+}
