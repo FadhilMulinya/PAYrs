@@ -1,166 +1,220 @@
-/* General Reset */
+/* Existing styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body Styles */
-  body {
-    font-family: 'Montserrat', sans-serif;
-    background: #f8f7f7; /* Dark background */
-    color: #0c0202; /* Light text color for contrast */
-    line-height: 1.6;
-    padding: 20px;
-  }
-  
-  /* Header Styles */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Permanent Marker', cursive;
-    color: #00d1ff; /* Vibrant cyan for Web3 feel */
-    margin-bottom: 1rem;
-  }
-  
-  h1 {
-    font-size: 3rem;
-    text-shadow: 0px 0px 8px rgba(0, 209, 255, 0.6);
-  }
-  
-  h2, h3 {
-    text-shadow: 0px 0px 5px rgba(0, 209, 255, 0.5);
-  }
-  
-  /* Button Styles */
-  .btn-primary {
-    background: linear-gradient(45deg, #00d1ff, #00ff87); /* Gradient for Web3 style */
-    border: none;
-    color: #121212;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 209, 255, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .btn-primary:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 255, 135, 0.5);
-  }
-  
-  /* Card Styles */
-  .card {
-    background: #1e1e1e;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    margin-bottom: 20px;
-    transition: transform 0.2s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 209, 255, 0.3);
-  }
-  
-  .card-header {
-    background: #00d1ff;
-    color: #121212;
-    font-family: 'Permanent Marker', cursive;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .card-body {
-    color: #e0e0e0;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  /* Navbar Styles */
-  .navbar {
-    background: rgba(18, 18, 18, 0.9);
-    border-bottom: 2px solid #00d1ff;
-    padding: 10px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
-  
-  .navbar-brand, .navbar-nav .nav-link {
-    color: #00ff87;
-    font-family: 'Permanent Marker', cursive;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-brand:hover, .navbar-nav .nav-link:hover {
-    color: #00d1ff;
-  }
-  
-  /* Footer Styles */
-  footer {
-    background: #1e1e1e;
-    padding: 20px;
-    text-align: center;
-    color: #e0e0e0;
-    font-family: 'Montserrat', sans-serif;
-    border-top: 2px solid #00d1ff;
-    margin-top: 20px;
-  }
-  
-  /* Inputs and Forms */
-  input, textarea {
-    background: #2e2e2e;
-    color: #e0e0e0;
-    border: 1px solid #00d1ff;
-    padding: 10px;
-    border-radius: 6px;
-    width: 100%;
-    margin-bottom: 15px;
-    font-family: 'Montserrat', sans-serif;
-    transition: border-color 0.3s ease;
-  }
-  
-  input:focus, textarea:focus {
-    border-color: #00ff87;
-    outline: none;
-  }
-  
-  /* Utility Classes */
-  .text-center {
-    text-align: center;
-  }
-  
-  .mb-4 {
-    margin-bottom: 1.5rem;
-  }
-  
-  .mt-4 {
-    margin-top: 1.5rem;
-  }
-  
-  /* Glow Animation for Web3 Vibe */
-  .glow {
-    color: #00d1ff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f8f7f7;
+  color: #0c0202;
+  line-height: 1.6;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Permanent Marker', cursive;
+  color: #00d1ff;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 0px 0px 8px rgba(0, 209, 255, 0.6);
+}
+
+h2, h3 {
+  text-shadow: 0px 0px 5px rgba(0, 209, 255, 0.5);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #00d1ff, #00ff87);
+  border: none;
+  color: #121212;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 209, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 255, 135, 0.5);
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 209, 255, 0.3);
+}
+
+/* Theme switcher styles */
+.theme-switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.theme-switch label {
+  cursor: pointer;
+  padding: 10px;
+  background: #ddd;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 30px;
+}
+
+.theme-switch label:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  transition: 0.3s;
+}
+
+.theme-switch input:checked + label {
+  background: #3498db;
+}
+
+.theme-switch input:checked + label:after {
+  left: calc(100% - 25px);
+}
+
+/* Dark theme styles */
+body.dark-theme {
+  background: #1a1a2e;
+  color: #f0f0f0;
+}
+
+body.dark-theme .card {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme .btn-primary {
+  background: linear-gradient(45deg, #3498db, #2ecc71);
+  color: #ffffff;
+}
+
+body.dark-theme .alert-info {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+body.dark-theme .alert-success {
+  background-color: #27ae60;
+  color: #ecf0f1;
+}
+
+body.dark-theme .alert-danger {
+  background-color: #c0392b;
+  color: #ecf0f1;
+}
+
+/* Transition for smooth theme switching */
+body, .card, .btn-primary, .alert {
+  transition: all 0.3s ease;
+}
+
+/* Existing styles continued */
+.navbar {
+  background: rgba(18, 18, 18, 0.9);
+  border-bottom: 2px solid #00d1ff;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #00ff87;
+  font-family: 'Permanent Marker', cursive;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #00d1ff;
+}
+
+footer {
+  background: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+  border-top: 2px solid #00d1ff;
+  margin-top: 20px;
+}
+
+input, textarea {
+  background: #2e2e2e;
+  color: #e0e0e0;
+  border: 1px solid #00d1ff;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #00ff87;
+  outline: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.glow {
+  color: #00d1ff;
+  text-shadow: 0px 0px 8px rgba(0, 209, 255, 0.6), 0px 0px 16px rgba(0, 255, 135, 0.3);
+  animation: glowAnimation 2s infinite alternate;
+}
+
+@keyframes glowAnimation {
+  from {
     text-shadow: 0px 0px 8px rgba(0, 209, 255, 0.6), 0px 0px 16px rgba(0, 255, 135, 0.3);
-    animation: glowAnimation 2s infinite alternate;
   }
-  
-  @keyframes glowAnimation {
-    from {
-      text-shadow: 0px 0px 8px rgba(0, 209, 255, 0.6), 0px 0px 16px rgba(0, 255, 135, 0.3);
-    }
-    to {
-      text-shadow: 0px 0px 16px rgba(0, 255, 135, 0.5), 0px 0px 32px rgba(0, 209, 255, 0.4);
-    }
+  to {
+    text-shadow: 0px 0px 16px rgba(0, 255, 135, 0.5), 0px 0px 32px rgba(0, 209, 255, 0.4);
   }
-  
-  /* Gradient Text */
-  .gradient-text {
-    background: linear-gradient(45deg, #00d1ff, #00ff87);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  /* Smooth scrolling */
-  html {
-    scroll-behavior: smooth;
-  }
-  
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #00d1ff, #00ff87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
