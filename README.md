@@ -41,19 +41,12 @@ PAYrs is a cutting-edge payment solution tailored for HR departments, leveraging
 
 2. Install dependencies:
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    # or
    yarn install
    ```
 
-3. Set up environment variables:
-   Create a `.env.local` file in the root directory and add necessary configuration:
-   ```
-   NEXT_PUBLIC_LISK_CONTRACT_ADDRESS=your_lisk_contract_address
-   NEXT_PUBLIC_LISK_NETWORK=mainnet_or_testnet
-   ```
-
-4. Start the development server:
+3. Start the development server:
    ```bash
    npm run dev
    # or

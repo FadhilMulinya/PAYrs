@@ -88,7 +88,7 @@ export default function Home() {
           >
             <ImporterField name="recipient" label="recipient" />
             <ImporterField name="amount" label="amount" />
-            <ImporterField name="currency" label="currency"/>
+            <ImporterField name="currency" label="currency" optional/>
           </Importer>
           <div className="text-center">
             <button
